@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://rowpilot.com/android-chrome-192x192.png" width="96" alt="Rowpilot logo">
+  <a href="https://rowpilot.com"><img src="https://cdn.rowpilot.com/logo_mail.png" width="280" alt="Rowpilot"></a>
 </p>
 
-<h1 align="center">Rowpilot</h1>
 <p align="center"><strong>Navigate your data.</strong></p>
 <p align="center">
   An AI-powered desktop SQL editor for engineers. Query databases and files, local or remote, from one app.
