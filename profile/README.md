@@ -1,5 +1,10 @@
 <p align="center">
-  <a href="https://rowpilot.com"><img src="https://cdn.rowpilot.com/logo_mail.png" width="280" alt="Rowpilot"></a>
+  <a href="https://rowpilot.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowpilot/.github/main/profile/logo-dark.png">
+      <img src="https://raw.githubusercontent.com/rowpilot/.github/main/profile/logo-light.png" width="280" alt="Rowpilot">
+    </picture>
+  </a>
 </p>
 
 <p align="center"><strong>Navigate your data.</strong></p>
