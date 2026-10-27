@@ -22,13 +22,13 @@
 
 ## What it is
 
-Rowpilot is a desktop app for macOS (Apple Silicon), Windows and Linux. You connect databases and files, write SQL against them in one editor, and work with the results in a grid.
+A desktop SQL editor for macOS (Apple Silicon), Windows and Linux.
 
-- **Databases:** PostgreSQL, MySQL/MariaDB, SQLite, DuckDB and Redis.
-- **Files:** Parquet, CSV and XLSX, from local disk or from AWS S3, Google Cloud Storage, Cloudflare R2, Azure Blob/ADLS and HTTP. Every file is a table, powered by DuckDB.
-- **AI agents:** bring your own agent and keys. Claude, Codex, Cursor or any OpenAI-compatible API. Tool access is permission-gated per tool, and agent database connections are read-only.
-- **Guard mode:** the default transaction mode. Reads run immediately. Writes stop before commit and show you the SQL and the affected row count first.
-- **Local-first:** credentials live in your OS keychain. Your data flows directly between your machine and your databases, with no middleman servers.
+- **Databases:** PostgreSQL, MySQL/MariaDB, SQLite, DuckDB, Redis.
+- **Files:** Parquet, CSV and XLSX, local or in S3, GCS, R2, Azure and over HTTP. Every file is a table, powered by DuckDB.
+- **AI agents:** Claude, Codex, Cursor or any OpenAI-compatible API. Bring your own keys. Every tool call goes through permissions.
+- **Guard mode:** writes stop before commit and show the affected row count.
+- **Local-first:** credentials in your OS keychain, no middleman servers.
 
 ## Getting started
 
@@ -39,7 +39,7 @@ Rowpilot is [free to use](https://rowpilot.com/docs/free-tier): all features, 1 
 
 ## About this organization
 
-Rowpilot is not open source. The app and the website are developed in private repositories. This organization is where we publish anything public around the product.
+Rowpilot is not open source. This is where we publish anything public around it.
 
 ## Support
 
