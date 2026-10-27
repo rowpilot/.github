@@ -8,7 +8,9 @@
 </p>
 
 <p align="center"><strong>Navigate your data.</strong></p>
-<p align="center">Rowpilot is an AI-powered SQL editor for files and databases.</p>
+<p align="center">
+  An AI-powered desktop SQL editor for engineers. Query databases and files, local or remote, from one app.
+</p>
 
 <p align="center">
   <a href="https://rowpilot.com">Website</a> ·
@@ -20,26 +22,30 @@
 
 ---
 
-## What it is
+## What is Rowpilot?
 
-Rowpilot is a desktop SQL editor for macOS (Apple Silicon), Windows and Linux.
+Rowpilot is a desktop app for macOS (Apple Silicon), Windows and Linux that lets you explore and manage data with SQL, wherever it lives.
 
-- It connects to PostgreSQL, MySQL/MariaDB, SQLite, DuckDB and Redis.
-- It opens Parquet, CSV and XLSX files from your disk or from S3, GCS, R2, Azure and HTTP, and lets you query them with SQL. DuckDB does the work under the hood.
-- It works with AI agents. Use Claude, Codex, Cursor or anything with an OpenAI-compatible API, with your own keys. You decide which tools the agent can use and approve its calls.
-- Guard mode holds every write until you have seen how many rows it affects.
-- Credentials are stored in your OS keychain. There is no server between you and your database.
+- **Databases:** PostgreSQL, MySQL / MariaDB, SQLite, DuckDB, Redis
+- **Files, queried with SQL:** Parquet, CSV and XLSX from local disk or remote storage (AWS S3 and S3-compatible, Google Cloud Storage, Cloudflare R2, Azure Blob / ADLS, HTTP)
+- **AI agents:** connect Claude, Codex, Cursor or any OpenAI-compatible API with your own keys. Agent tools are permission-gated.
+- **Guard mode:** writes are held in a transaction until you review the affected row count and commit.
+- **Local-first:** credentials live in your OS keychain, no middleman servers.
 
 ## Getting started
 
-[Download it](https://rowpilot.com/download), no account needed, and follow the [quick start](https://rowpilot.com/docs/quick-start) to run your first query.
+1. [Download](https://rowpilot.com/download) the build for your platform. No account required.
+2. Follow the [quick start](https://rowpilot.com/docs/quick-start) to add your first data source.
+3. Optional: [set up an AI agent](https://rowpilot.com/docs/ai).
 
-Rowpilot is free to use. The free plan has all features but is limited to one workspace and two data sources. If you need more, [buy a license](https://rowpilot.com/pricing). It is a one-time purchase.
+Rowpilot is free to use with 1 workspace and 2 data sources, with every feature included. A one-time [Personal or Commercial license](https://rowpilot.com/pricing) removes the limits.
 
-## About this organization
+## This organization
 
-Rowpilot itself is not open source. We use this organization for anything public we release around it.
+Rowpilot is not open source. This organization hosts anything public we release around it.
 
-## Support
+## Support and feedback
 
-Start with the [docs](https://rowpilot.com/docs) and the [troubleshooting page](https://rowpilot.com/docs/troubleshooting). If that does not help, write to [support@rowpilot.com](mailto:support@rowpilot.com).
+- Docs: [rowpilot.com/docs](https://rowpilot.com/docs)
+- Troubleshooting: [rowpilot.com/docs/troubleshooting](https://rowpilot.com/docs/troubleshooting)
+- Email: [support@rowpilot.com](mailto:support@rowpilot.com)
