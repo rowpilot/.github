@@ -9,7 +9,7 @@
 
 <p align="center"><strong>Navigate your data.</strong></p>
 <p align="center">
-  An AI-powered desktop SQL editor for engineers. Query databases and files, local or remote, from one app.
+  AI-powered desktop SQL editor for exploring and managing your local and remote files and databases
 </p>
 
 <p align="center">
@@ -24,25 +24,37 @@
 
 ## What is Rowpilot?
 
-Rowpilot is a desktop app for macOS (Apple Silicon), Windows and Linux that lets you explore and manage data with SQL, wherever it lives.
+Rowpilot is a desktop app for macOS, Windows and Linux that helps you manage and explore your local or remote files and databases.
 
-- **Databases:** PostgreSQL, MySQL / MariaDB, SQLite, DuckDB, Redis
-- **Files, queried with SQL:** Parquet, CSV and XLSX from local disk or remote storage (AWS S3 and S3-compatible, Google Cloud Storage, Cloudflare R2, Azure Blob / ADLS, HTTP)
-- **AI agents:** connect Claude, Codex, Cursor or any OpenAI-compatible API with your own keys. Agent tools are permission-gated.
-- **Guard mode:** writes are held in a transaction until you review the affected row count and commit.
-- **Local-first:** credentials live in your OS keychain, no middleman servers.
+- **Databases:**
+  - PostgreSQL (including Neon, AWS Aurora,...), MySQL / MariaDB, SQLite, Redis (and Redis compatible, DuckDB
+- **Files as a database:**
+  - Parquet, CSV and XLSX from local disk or remote storage
+  - Remote storage support: AWS S3 and S3-compatible, Google Cloud Storage, Cloudflare R2, Azure Blob / ADLS, HTTP
+- **AI agents:**
+  - Connect Claude, Codex, Cursor or any OpenAI-compatible API with your own keys
+  - Get help with SQL, explore the data, multiple tools, persmission system, read-only connection
+- **MCP support**
+  - Connect any Agent using MCP
+    - Query, Fix sql, ask about data - permission system, read-only connections
+- **Guard mode:**
+  - Protect yourself from expensive mistakes - review your data edits before they impact your DB
+- **Local and secure first:**
+  - Credentials in OS keychain
+  - Read-only connection support
+  - Agents read only what you allow
 
 ## Getting started
 
-1. [Download](https://rowpilot.com/download) the build for your platform. No account required.
-2. Follow the [quick start](https://rowpilot.com/docs/quick-start) to add your first data source.
-3. Optional: [set up an AI agent](https://rowpilot.com/docs/ai).
+1. [Download](https://rowpilot.com/download) the build for your platform. No account required
+2. Follow the [quick start](https://rowpilot.com/docs/quick-start) to add your first data source
+3. Optional: [set up an AI agent](https://rowpilot.com/docs/ai)
 
-Rowpilot is free to use with 1 workspace and 2 data sources, with every feature included. A one-time [Personal or Commercial license](https://rowpilot.com/pricing) removes the limits.
+Rowpilot is free to use with 1 workspace and 2 data sources (connections) - all features included. Purchase [Personal or Commercial license](https://rowpilot.com/pricing) for unlimitted connections and support.
 
 ## This organization
 
-Rowpilot is not open source. This organization hosts anything public we release around it.
+Rowpilot is not open source. This organization hosts anything public we release.
 
 ## Support and feedback
 
