@@ -22,27 +22,24 @@
 
 ## What it is
 
-A desktop SQL editor for macOS (Apple Silicon), Windows and Linux.
+Rowpilot is a desktop SQL editor for macOS (Apple Silicon), Windows and Linux.
 
-- **Databases:** PostgreSQL, MySQL/MariaDB, SQLite, DuckDB, Redis.
-- **Files:** Parquet, CSV and XLSX, local or in S3, GCS, R2, Azure and over HTTP. Every file is a table, powered by DuckDB.
-- **AI agents:** Claude, Codex, Cursor or any OpenAI-compatible API. Bring your own keys. Every tool call goes through permissions.
-- **Guard mode:** writes stop before commit and show the affected row count.
-- **Local-first:** credentials in your OS keychain, no middleman servers.
+- It connects to PostgreSQL, MySQL/MariaDB, SQLite, DuckDB and Redis.
+- It opens Parquet, CSV and XLSX files from your disk or from S3, GCS, R2, Azure and HTTP, and lets you query them with SQL. DuckDB does the work under the hood.
+- It works with AI agents. Use Claude, Codex, Cursor or anything with an OpenAI-compatible API, with your own keys. You decide which tools the agent can use and approve its calls.
+- Guard mode holds every write until you have seen how many rows it affects.
+- Credentials are stored in your OS keychain. There is no server between you and your database.
 
 ## Getting started
 
-1. [Install Rowpilot](https://rowpilot.com/docs/installation). No account required.
-2. Follow the [Quick Start](https://rowpilot.com/docs/quick-start) to run your first query.
+[Download it](https://rowpilot.com/download), no account needed, and follow the [quick start](https://rowpilot.com/docs/quick-start) to run your first query.
 
-Rowpilot is [free to use](https://rowpilot.com/docs/free-tier): all features, 1 workspace, 2 data sources. A [license](https://rowpilot.com/pricing) is a one-time purchase that removes the limits.
+Rowpilot is free to use. The free plan has all features but is limited to one workspace and two data sources. If you need more, [buy a license](https://rowpilot.com/pricing). It is a one-time purchase.
 
 ## About this organization
 
-Rowpilot is not open source. This is where we publish anything public around it.
+Rowpilot itself is not open source. We use this organization for anything public we release around it.
 
 ## Support
 
-- Docs: [rowpilot.com/docs](https://rowpilot.com/docs)
-- Troubleshooting: [rowpilot.com/docs/troubleshooting](https://rowpilot.com/docs/troubleshooting)
-- Email: [support@rowpilot.com](mailto:support@rowpilot.com)
+Start with the [docs](https://rowpilot.com/docs) and the [troubleshooting page](https://rowpilot.com/docs/troubleshooting). If that does not help, write to [support@rowpilot.com](mailto:support@rowpilot.com).
